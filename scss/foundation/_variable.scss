@@ -1,0 +1,23 @@
+// spacer
+$spacer: 1.6rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+);
+
+// vars
+$font: (
+  serif: #{"游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", "HGS明朝E", "メイリオ", Meiryo, serif},
+  sanserif: #{-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", sans-serif}
+);
+
+$breakpoints: (
+  's': 'screen and (max-width: 479px)',
+  'm': 'screen and (max-width: 767px)',
+  'l': 'screen and (max-width: 899px)',
+  'xl': 'screen and (max-width: 1099px)',
+);

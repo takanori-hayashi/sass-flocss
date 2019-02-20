@@ -1,0 +1,21 @@
+@each $size, $length in $spacers {
+  .u-m-#{$size} {
+    margin: $length !important;
+  }
+
+  .u-mt-#{$size} {
+    margin-top: $length !important;
+  }
+
+  .u-mr-#{$size} {
+    margin-right: $length !important;
+  }
+
+  .u-mb-#{$size} {
+    margin-bottom: $length !important;
+  }
+
+  .u-ml-#{$size} {
+    margin-left: $length !important;
+  }
+}  

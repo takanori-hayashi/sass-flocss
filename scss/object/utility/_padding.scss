@@ -1,0 +1,21 @@
+@each $size, $length in $spacers {
+  .u-p-#{$size} {
+    padding: $length !important;
+  }
+
+  .u-pt-#{$size} {
+    padding-top: $length !important;
+  }
+
+  .u-pr-#{$size} {
+    padding-right: $length !important;
+  }
+
+  .u-pb-#{$size} {
+    padding-bottom: $length !important;
+  }
+
+  .u-pl-#{$size} {
+    padding-left: $length !important;
+  }
+}  

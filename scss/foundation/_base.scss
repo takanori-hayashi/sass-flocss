@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #333;
+  font: 1.4rem/1.6 map-get($font, sanserif);
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
